@@ -1,0 +1,146 @@
+html {
+            scroll-behavior: smooth;
+        }
+        h1{
+            font-family: 'Luckiest Guy', cursive;
+            font-size: 44px;
+            padding-left: 40px;
+        }
+        body{
+            background-color: #f8ac08;
+            color: black;
+        }
+        .container{
+            display: grid;
+
+            grid-template-areas:
+            'head head head'
+            'main main main'
+            'foot foot foot';
+        }
+        .container div{
+            padding: 30px;
+            margin: 10px;
+        }
+        .head{
+            color: black;
+            grid-area: head;
+            text-align: center;
+            font-family: 'Luckiest Guy', cursive;
+        }
+        .main{
+            color: black;
+            grid-area: main;
+            text-align: center;
+            font-size: 25px;
+
+        }
+        .foot{
+            color: black;
+            grid-area: foot;
+        }
+        fieldset{
+            background-color: blueviolet;
+            width: 100%;
+            height: 100px;
+            text-align: center;
+        }
+        input{
+            width: 30%;
+            height: 15%;
+            margin-left: 5%;
+            font-weight: bold;
+            color: black;
+            font-size: 20px;
+            background-color: #5bccf6;
+            border: 3px solid black;
+            border-radius:20px;
+            text-align: center;
+        }
+        .course{
+            box-shadow: 8px 8px 18px black;
+            width: 90%;
+            height: 15%;
+            font-weight: bold;
+            color: black;
+            font-size: 20px;
+            background-color: #5bccf6;
+            border: 3px solid black;
+            border-radius:20px;
+            text-align: center;
+        }
+        input[list="grade"],input[list="credit"]{
+            box-shadow: 8px 8px 18px black;
+            width: 90%;
+            height: 15%;
+            font-weight: bold;
+            color: black;
+            font-size: 20px;
+            background-color: #5bccf6;
+            border: 3px solid black;
+            border-radius:20px;
+            text-align: center;
+        }
+        button{
+            box-shadow: 8px 8px 18px black;
+            font-weight: bold;
+            width: 170px;
+            color: black;
+            font-size: 20px;
+            border: 3px solid black;
+            border-radius:20px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        button:disabled{
+            opacity: 0.6;
+        }
+        button:hover{
+            background-color: #5bccf6;
+        }
+        input:hover{
+            background-color: white;
+        }
+        .onsubmit,.oncalculate{
+            margin: 50px;
+            font-weight: bold;
+            width: 170px;
+            color: black;
+            font-size: 20px;
+            border: 3px solid black;
+            border-radius:20px;
+            text-align: center;
+        }
+        table{
+            margin-top: 30px;
+            border-spacing: 30px;
+            width: 100%;
+            height: 100%;
+        }
+        #result{
+            font-family: 'Chelsea Market', cursive;
+            font-size: 35px;
+            font-weight: bold;
+            /* animation: example-animation 5s linear forwards; */
+        }
+          /* @keyframes example-animation {
+            from {
+              opacity: 0;
+              transform: translateY(-100%);
+            }
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          } */
+        img{
+            padding: 20px;
+            width: auto;
+        }
+        nav{
+            margin-left: 320px;
+        }
+        u{
+            font-weight: bold;
+        }
+        

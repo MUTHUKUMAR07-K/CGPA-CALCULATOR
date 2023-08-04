@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="act.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="head" id="head">
+            <img src="download.svg" alt="Icon" height="120" width="120">
+            <h1>NEC CGPA CALCULATOR</h1>
+        </div>
+        <div class="main" id="main">
+            <u><h2>Steps To Calculate CGPA</h2></u>
+            <div style="text-align: left;">
+                <p>
+                    <section><u>STEP 1:</u> Enter the <b> Number of Semesters</b> correctly based on this calculation will done.</section><br>
+                    <section><u>STEP 2:</u> For Each Semester, <b>Enter the Numbers of Subjects</b>.</section><br>
+                    <section><u>STEP 3:</u> Enter the Relevant Semester Subjects Course code(Optional),<b>GRADE</b> and <b>Credit</b> from the List.</section><br>
+                    <section><u>STEP 4:</u> After entering all subjects information, Press <b>Calculate</b> to Know the CGPA</section><br>
+                    <section><u>STEP 5:</u> The Result will contains
+                    <ul>
+                        <li><b>GPA</b> for Each Semester in Percentage(%) out of 10</li>
+                        <li><b>CGPA</b> for Overall Semester in Percentage(%) out of 10</li>
+                        <li>Total Credits Earned for all the Semester</li>
+                    </ul></section><br>
+                    <section><u>NOTE</u> if you have an Arrear,  Your not Elgible to Calculate <b>CGPA</b></section>
+                </p>
+            </div>
+            
+            <h2>Calculate CGPA</h2>
+            <div id="entersem">
+                <label>Enter Number of Semester:</label>
+                <input type="text" id="sems" name="sems" onkeyup="addsems(this.value)" /><br>
+                <button type="submit" id="mainsub" onclick="sub()">Submit</button>
+            </div>
+
+        </div>
+        <div class="foot">
+            <h2 style="text-align: center;">&#169; 2023 Muthu Kumar K. All Rights Reserved</h2>
+        <nav>
+            <a href="https://twitter.com/SharpKumar8" target="_blank"><img src="twitter (2).svg" alt="Twitter" height="50" width="50"></a>
+            <a href="https://www.linkedin.com/in/muthu-kumar-05b602208/" target="_blank"><img src="linkedin.svg" alt="linkedin" height="50" width="50"></a>
+            <a href="mailto:2012074@nec.edu.in" target="_blank"><img src="attach_email.svg" alt="Email" height="50" width="50"></a>
+            <a href="https://nec.edu.in/" target="_blank"><img src="globe.svg" alt="linkedin" height="50" width="50"></a>
+        </nav>
+        </div>
+    </div>
+</body>
+</html>
